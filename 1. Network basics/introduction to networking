@@ -1,63 +1,8 @@
-# Introduction to Computer Networks
+Introduction to Computer Networks
 
----
-
-## 1. What is a Computer Network?
+1. What is a Computer Network?
 A computer network is a connection between two or more devices that allows them to share data and resources.
 Communication between devices can occur through different transmission media such as:
-- Electrical cables (wired)
-- Optical fiber (light signals)
-- Wireless communication (radio waves)
----
-
-## 2. How Do Computers Share Data? 
-A device connects to a network using a hardware component called a **Network Interface Card (NIC)**.
-The NIC enables a device to send and receive data over a network and operates using different communication media.
-Each NIC contains a unique physical identifier known as a MAC address.
----
-
-## 3. What is a MAC Address?
-A **MAC (Media Access Control) Address** is a unique physical address assigned to a network interface.
-It is similar to a vehicle chassis number and helps identify devices within a local network.
----
-
-## 4. What is a Logical Address?
-A logical address refers to the **IP Address (Internet Protocol Address)**.
-It enables communication across different networks and allows devices to be identified globally over the Internet.
----
-
-## 5. Network Devices
-### RepeaterA repeater strengthens weakened signals during long-distance transmission to maintain signal quality.
-### Hub
-A hub connects multiple devices and broadcasts incoming data to all connected devices. It is a non-intelligent device and inefficient compared to modern devices.
-### Bridge
-A bridge connects multiple network segments and forwards data using MAC addresses.
-### Switch
-A switch intelligently forwards data only to the intended device, improving efficiency and performance.
-### Router
-A router connects different networks and forwards packets using IP addresses and routing tables.
-### Gateway
-A gateway connects networks that use different communication protocols.
----
-
-## 6. Network Topology
-Network topology refers to the physical or logical arrangement of devices in a network.
-### Bus Topology
-All devices share a single backbone cable. Failure of the backbone stops communication.
-### Star Topology
-All devices connect to a central hub or switch. Failure of the central device disrupts the network.
-### Ring Topology
-Each device connects to two neighboring devices forming a circular path for data transmission.
-### Mesh Topology
-Every device connects to multiple devices, providing high reliability and fault tolerance.
----
-
-## 7. Types of Networks
-### PAN (Personal Area Network)
-Short-range networks such as Bluetooth connections.
-### LAN (Local Area Network)
-Used within buildings or organizations.
-### MAN (Metropolitan Area Network)
-Covers large areas such as cities.
-### WAN (Wide Area Network)
-Connects networks across countries and continents, forming the Internet.
+Electrical cables (Wired communication)
+Optical fiber (Light signals)
+Wireless communication (Radio waves)
